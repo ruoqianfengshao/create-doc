@@ -13,5 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^2.16.0"
+  },
+  "bin": {
+    "pk": "./bin/pk.js"
   }
 }
