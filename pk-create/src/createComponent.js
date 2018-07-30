@@ -20,7 +20,7 @@ const handleUserInput = (val) => {
   // 分离用户输入的字符串为英文组件名，中文组件名以及分类（分类默认为0[常规组件]）
   const args = val.split('-')
   const name = args[0]
-  const name_cn = args[1];
+  const name_cn = args[1] || name;
   const order = args[2] || 0;
   // 文件夹根目录
   const rootPath = vscode.workspace.workspaceFolders
