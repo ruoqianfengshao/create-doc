@@ -1,9 +1,9 @@
 {
-    "name": "pk-create",
-    "displayName": "pk-create",
+    "name": "parkball-tool",
+    "displayName": "parkball-tool",
     "description": "simplify the process of modify folder and files in source directory",
-    "version": "0.0.1",
-    "publisher": "parkball-doc",
+    "version": "1.0.0",
+    "publisher": "Vico",
     "engines": {
         "vscode": "^1.25.0"
     },
